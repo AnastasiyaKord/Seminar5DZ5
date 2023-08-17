@@ -11,7 +11,7 @@ int[] array = GetArray(12, -999, 999);
 Console.WriteLine(String.Join(" ", array));
 int arrayRandomX = sumOfOddNumbers(array);
 
-Console.WriteLine($"Колличество нечётных чисел в массиве: {arrayRandomX}");
+Console.WriteLine($"Сумма нечётных чисел в массиве: {arrayRandomX}");
 
 
 int[] GetArray(int size, int minValue, int maxValue)

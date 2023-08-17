@@ -9,7 +9,7 @@ Console.Clear();
 
 int[] array = GetArray(12, 100, 999);
 Console.WriteLine(String.Join(" ", array));
-int arrayRandomX = sumOfEvenNumbers(array);
+int arrayRandomX = countOfEvenNumbers(array);
 
 Console.WriteLine($"Колличество четных чисел в массиве: {arrayRandomX}");
 
@@ -24,15 +24,15 @@ int[] GetArray(int size, int minValue, int maxValue)
     return res;
 }
 
-int sumOfEvenNumbers(int[] arrayRandomX)
+int countOfEvenNumbers(int[] arrayRandomX)
 {
-    int sumOfEvenNumbers = 0;
+    int countOfEvenNumbers = 0;
     for (int i = 0; i < arrayRandomX.Length; i++)
     {
         if (arrayRandomX[i] % 2 == 0)
-            sumOfEvenNumbers = sumOfEvenNumbers + 1;
+            countOfEvenNumbers = countOfEvenNumbers + 1;
     }
-    return sumOfEvenNumbers;
+    return countOfEvenNumbers;
 }
 
 

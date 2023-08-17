@@ -1,0 +1,15 @@
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\bin\Debug\net7.0\Задача36.exe
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\bin\Debug\net7.0\Задача36.deps.json
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\bin\Debug\net7.0\Задача36.runtimeconfig.json
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\bin\Debug\net7.0\Задача36.dll
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\bin\Debug\net7.0\Задача36.pdb
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\obj\Debug\net7.0\Задача36.csproj.AssemblyReference.cache
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\obj\Debug\net7.0\Задача36.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\obj\Debug\net7.0\Задача36.AssemblyInfoInputs.cache
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\obj\Debug\net7.0\Задача36.AssemblyInfo.cs
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\obj\Debug\net7.0\Задача36.csproj.CoreCompileInputs.cache
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\obj\Debug\net7.0\Задача36.dll
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\obj\Debug\net7.0\refint\Задача36.dll
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\obj\Debug\net7.0\Задача36.pdb
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\obj\Debug\net7.0\Задача36.genruntimeconfig.cache
+C:\Users\akordel\Desktop\Семинар 5ДЗ\Задача36\obj\Debug\net7.0\ref\Задача36.dll

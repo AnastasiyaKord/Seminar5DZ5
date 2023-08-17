@@ -7,11 +7,11 @@
 
 Console.Clear();
 
-int[] array = GetArray(12, -999, 999);
+int[] array = GetArray(5, -999, 999);
 Console.WriteLine(String.Join(" ", array));
-int arrayRandomX = sumOfOddNumbers(array);
+int arrayRandomX = SumOfElementsOfOddPositions(array);
 
-Console.WriteLine($"Сумма нечётных чисел в массиве: {arrayRandomX}");
+Console.WriteLine($"Cумма элементов, стоящих на нечётных позициях: {arrayRandomX}");
 
 
 int[] GetArray(int size, int minValue, int maxValue)
@@ -24,15 +24,13 @@ int[] GetArray(int size, int minValue, int maxValue)
     return res;
 }
 
-int sumOfOddNumbers(int[] arrayRandomX)
+int SumOfElementsOfOddPositions(int[] arrayRandomX)
 {
-    int sumOfOddNumbers = 0;
-    for (int i = 0; i < arrayRandomX.Length; i++)
+    int sumOfElements = 0;
+    for (int i = 1; i < arrayRandomX.Length; i += 2)
     {
-        if (arrayRandomX[i] % 2 != 0)
-        
-        sumOfOddNumbers = sumOfOddNumbers + arrayRandomX[i];
+        sumOfElements += arrayRandomX[i];
     }
-    return sumOfOddNumbers;
+    return sumOfElements;
 }
 

@@ -5,15 +5,14 @@
 
 // [345, 897, 568, 234] -> 2
 
-
 Console.Clear();
 
 int[] array = GetArray(12, 100, 999);
 Console.WriteLine(String.Join(" ", array));
 int arrayRandomX = sumOfEvenNumbers(array);
 
-
 Console.WriteLine($"Колличество четных чисел в массиве: {arrayRandomX}");
+
 
 int[] GetArray(int size, int minValue, int maxValue)
 {
